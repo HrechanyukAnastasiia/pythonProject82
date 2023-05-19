@@ -64,8 +64,8 @@ class Customer:
 
 
 shop = Store("LC WAIKIKI", "вулиця 600-річчя")
-item_1 = Clothing("Кожа" , "Сумка" , 500)
-item_2 = Clothing("Хлопок" , "Кофта"  , 400)
+item_1 = Clothing("Кожа" , "Куртка" , 500 , "XL")
+item_2 = Clothing("Хлопок" , "Кофта"  , 400 , "L")
 shop.add_item(item_1)
 shop.add_item(item_2)
 customer = Customer("Настя" , 1000)
