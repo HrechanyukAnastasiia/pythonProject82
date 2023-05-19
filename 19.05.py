@@ -64,6 +64,7 @@ class Customer:
 
 
 shop = Store("LC WAIKIKI", "вулиця 600-річчя")
+print(shop.name + ', ' + shop.address)
 item_1 = Clothing("Кожа" , "Куртка" , 500 , "XL")
 item_2 = Clothing("Хлопок" , "Кофта"  , 400 , "L")
 shop.add_item(item_1)
